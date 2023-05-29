@@ -3,6 +3,7 @@
   align-items: center;
   justify-content: space-between;
   background-color: #e9ccc7;
+  width: 100%;
 }
 
 .mobile-toolbar {
@@ -12,8 +13,8 @@
 }
 
 .scrollable-menu {
-  max-height: 300px; /* Defina a altura máxima desejada */
-  overflow-y: auto; /* Habilita a rolagem vertical */
+  max-height: 300px;
+  overflow-y: auto;
 }
 nav ul {
   list-style-type: none;
@@ -37,7 +38,7 @@ nav ul li a {
 
 .logo {
   margin-top: 8px;
-  max-height: 55px;
+  max-height: 50px;
 }
 
 @media (max-width: 600px) {
