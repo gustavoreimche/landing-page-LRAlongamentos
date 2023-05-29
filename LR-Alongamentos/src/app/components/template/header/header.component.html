@@ -1,19 +1,38 @@
-<mat-toolbar class="header mat-elevation-z4">
+<mat-toolbar class="header mat-elevation-z4" [ngClass]="{'mobile-toolbar': isHandset$ | async }">
   <div>
     <img  class="logo" src="../assets/img/logo.png" alt="Logo">
   </div>
   <div>
+    <!--Exibir os botões individualmente em dispositivos maiores-->
     <nav class="scrollable-menu">
-      <ul>
-        <li><a href="">Banner</a></li>
-        <li><a href="">Instrutora</a></li>
-        <li><a href="">Cursos</a></li>
-        <li><a href="">Certificados</a></li>
-        <li><a href="">Depoimentos</a></li>
-        <li><a href="">Garantia</a></li>
-        <li><a href="">Dúvidas</a></li>
-        <li> <a href="">Valores</a></li>
-      </ul>
+      <ng-container >
+        <ul>
+          <li><button>Banner</button></li>
+          <li><button>Instrutora</button></li>
+          <li><button>Cursos</button></li>
+          <li><button>Certificados</button></li>
+          <li><button>Depoimentos</button></li>
+          <li><button>Garantia</button></li>
+          <li><button>Dúvidas</button></li>
+          <li><button>Valores</button></li>
+        </ul>
+      </ng-container>
+      <!--Exibir o menu navegação em dispositivos de tela reduzida-->
+      <mat-menu #menu="matMenu">
+        <button>Banner</button>
+        <button>Instrutora</button>
+        <button>Cursos</button>
+        <button>Certificados</button>
+        <button>Depoimentos</button>
+        <button>Garantia</button>
+        <button>Dúvidas</button>
+        <button>Valores</button>
+      </mat-menu>
     </nav>
+    <div class="space"></div>
+    <!--Exibir os botões de menu em dispositivos de tela reduzidas-->
+    <button>
+      <mat-icon>men</mat-icon>
+    </button>
   </div>
 </mat-toolbar>

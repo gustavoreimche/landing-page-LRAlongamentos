@@ -1,48 +1,23 @@
-.header{
+.header {
   display: flex;
-  align-items: center;
   justify-content: space-between;
-  background-color: #e9ccc7;
-  width: 100%;
-}
-
-.mobile-toolbar {
-  position: sticky;
-  top: 0;
-  z-index: 1;
+  align-items: center;
+  .logo {
+    width:100px;
+    height: auto;
+  }
 }
 
 .scrollable-menu {
-  max-height: 300px;
-  overflow-y: auto;
-}
-nav ul {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-}
-
-nav ul li {
-  display: inline-block;
-  margin-left: 10px;
-}
-
-nav ul li:first-child {
-  margin-left: 0;
-}
-
-nav ul li a {
-  text-decoration: none;
-  color: white;
-}
-
-.logo {
-  margin-top: 8px;
-  max-height: 50px;
-}
-
-@media (max-width: 600px) {
-  .mobile-toolbar {
-    position: static;
+  ul{
+    display: flex;
+    list-style: none;
+    padding: 0;
+    li{
+      margin-right: 16px;
+      button{
+        
+      }
+    }
   }
 }
