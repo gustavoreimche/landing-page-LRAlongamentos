@@ -5,12 +5,16 @@
   width: 100%;
 }
 
-.log {
-  margin-top: 8px;
+.logo {
+  text-align: left;
+  margin-top: 2px;
   max-height: 50px;
 }
 
 .navbar ul li a {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
   text-decoration:none;
   color: black;
 }
