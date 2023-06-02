@@ -1,7 +1,8 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
-
+//Rotas
 import { AppRoutingModule } from './app-routing.module';
+//Componentes
 import { AppComponent } from './app.component';
 import { HeaderComponent } from './components/template/header/header.component';
 import { FooterComponent } from './components/template/footer/footer.component';
