@@ -1,0 +1,16 @@
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.log {
+  margin-top: 8px;
+  max-height: 50px;
+}
+
+.navbar ul li a {
+  text-decoration:none;
+  color: black;
+}
