@@ -5,6 +5,7 @@ import { Component } from '@angular/core';
   templateUrl: './instrutora.component.html',
   styleUrls: ['./instrutora.component.scss']
 })
+
 export class InstrutoraComponent {
 
 }

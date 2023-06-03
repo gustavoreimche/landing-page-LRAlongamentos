@@ -1,5 +1,6 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
+
 //Rotas
 import { AppRoutingModule } from './app-routing.module';
 //Componentes
@@ -14,6 +15,9 @@ import { DepoimentosComponent } from './components/template/depoimentos/depoimen
 import { GarantiaComponent } from './components/template/garantia/garantia.component';
 import { DuvidasComponent } from './components/template/duvidas/duvidas.component';
 import { ValoresComponent } from './components/template/valores/valores.component';
+import { AlongamentosComponent } from './components/template/cursos/alongamentos/alongamentos.component';
+import { RemocaoComponent } from './components/template/cursos/remocao/remocao.component';
+import { ManutencaoComponent } from './components/template/cursos/manutencao/manutencao.component';
 
 @NgModule({
   declarations: [
@@ -27,7 +31,10 @@ import { ValoresComponent } from './components/template/valores/valores.componen
     DepoimentosComponent,
     GarantiaComponent,
     DuvidasComponent,
-    ValoresComponent
+    ValoresComponent,
+    AlongamentosComponent,
+    RemocaoComponent,
+    ManutencaoComponent
   ],
   imports: [
     BrowserModule,
