@@ -1,20 +1,22 @@
 .header {
   display: flex;
   align-items: center;
-  justify-content: flex-end;
+  justify-content: space-between;
   width: 100%;
 }
 
 .logo {
   text-align: left;
-  margin-top: 2px;
+  margin: 2px 4px;
   max-height: 50px;
 }
 
 .navbar ul li a {
   display: flex;
-  align-items: center;
+  margin-left: 10px;
+  align-items: right;
   justify-content: flex-end;
-  text-decoration:none;
+  text-decoration: none;
   color: black;
 }
+
