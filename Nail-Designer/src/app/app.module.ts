@@ -15,9 +15,6 @@ import { DepoimentosComponent } from './components/template/depoimentos/depoimen
 import { GarantiaComponent } from './components/template/garantia/garantia.component';
 import { DuvidasComponent } from './components/template/duvidas/duvidas.component';
 import { ValoresComponent } from './components/template/valores/valores.component';
-import { AlongamentosComponent } from './components/template/cursos/alongamentos/alongamentos.component';
-import { RemocaoComponent } from './components/template/cursos/remocao/remocao.component';
-import { ManutencaoComponent } from './components/template/cursos/manutencao/manutencao.component';
 
 @NgModule({
   declarations: [
@@ -31,11 +28,9 @@ import { ManutencaoComponent } from './components/template/cursos/manutencao/man
     DepoimentosComponent,
     GarantiaComponent,
     DuvidasComponent,
-    ValoresComponent,
-    AlongamentosComponent,
-    RemocaoComponent,
-    ManutencaoComponent
+    ValoresComponent
   ],
+  
   imports: [
     BrowserModule,
     AppRoutingModule
