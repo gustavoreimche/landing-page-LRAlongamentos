@@ -5,11 +5,31 @@ import { BrowserModule } from '@angular/platform-browser';
 import { AppRoutingModule } from './app-routing.module';
 //Componentes
 import { AppComponent } from './app.component';
+import { HomeComponent } from './home/home.component';
+import { NavbarComponent } from './navbar/navbar.component';
+import { CourseComponent } from './course/course.component';
+import { CertificationComponent } from './certification/certification.component';
+import { DepositionsComponent } from './depositions/depositions.component';
+import { DoubtsComponent } from './doubts/doubts.component';
+import { GuaranteeComponent } from './guarantee/guarantee.component';
+import { OverIstructorComponent } from './over-istructor/over-istructor.component';
+import { CourseValueComponent } from './course-value/course-value.component';
+import { FooterComponent } from './footer/footer.component';
 
 
 @NgModule({
   declarations: [
     AppComponent,
+    HomeComponent,
+    NavbarComponent,
+    CourseComponent,
+    CertificationComponent,
+    DepositionsComponent,
+    DoubtsComponent,
+    GuaranteeComponent,
+    OverIstructorComponent,
+    CourseValueComponent,
+    FooterComponent,
     
   ],
   
