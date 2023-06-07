@@ -1,10 +1,10 @@
-import { Component } from '@angular/core';
+import { Component, ElementRef, OnInit, ViewChild } from '@angular/core';
 
 @Component({
   selector: 'app-root',
   templateUrl: './app.component.html',
   styleUrls: ['./app.component.scss']
 })
-export class AppComponent {
-  title = 'Nail-Designer';
+export class AppComponent implements OnInit {
+  @ViewChild('homeSection', {static: true, read: ElementRef}) homeSection!: ElementRef;
 }

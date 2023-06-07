@@ -1,10 +1,19 @@
-<app-navbar></app-navbar>
-<app-home></app-home>
-<app-instructor></app-instructor>
-<app-course></app-course>
-<app-certification></app-certification>
-<app-guarantee></app-guarantee>
-<app-depositions></app-depositions>
-<app-doubts></app-doubts>
-<app-price></app-price>
+<app-navbar 
+  (homeClick)="scrollToHome()" 
+  (instructorClick)="scrollToInstructor()"
+  (couseClick)=""
+  (certificationClick)
+  (guaranteeClick)
+  (depositionClick)
+  (doubtsClick)
+  (priceClick)="="
+></app-navbar>
+<app-home #homeSection></app-home>
+<app-instructor #instructorSection></app-instructor>
+<app-course #couseSection></app-course>
+<app-certification #certificationSection></app-certification>
+<app-guarantee #guaranteeSection></app-guarantee>
+<app-depositions #depositionSection></app-depositions>
+<app-doubts #doubtsSection></app-doubts>
+<app-price #priceSection></app-price>
 <app-footer></app-footer>
