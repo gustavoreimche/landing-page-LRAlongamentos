@@ -17,7 +17,7 @@ import { PriceComponent } from './price/price.component';
 import { FooterComponent } from './footer/footer.component';
 
 @NgModule({
-  declarations:
+  declarations: [
     AppComponent,
     HomeComponent,
     NavbarComponent,

@@ -11,25 +11,25 @@ export class AppComponent implements OnInit {
   @ViewChild('courseSection', {static: true, read: ElementRef}) courseSection!: ElementRef;
   @ViewChild('certificationSection', {static: true, read: ElementRef}) certificationSection!: ElementRef;
   @ViewChild('guaranteeSection', {static: true, read: ElementRef}) guaranteeSection!: ElementRef;
-  @ViewChild('depositionSection', {static: true, read: ElementRef}) depositionSection!: ElementRef;
+  @ViewChild('depositionsSection', {static: true, read: ElementRef}) depositiosnSection!: ElementRef;
   @ViewChild('doubtsSection', {static: true, read: ElementRef}) doubtsSection!: ElementRef;
   @ViewChild('priceSection', {static: true, read: ElementRef}) priceSection!: ElementRef;
-  
+
   constructor() {}
   ngOnInit(): void {}
-  
+
   scrollToHome(): void {
-    console.log('Scrollling to home');
+    console.log('Scrolling to home');
     this.homeSection.nativeElement.scrollIntoView({ behavior: 'smooth'});
   }
 
   scrollToInstructor(): void {
-    console.log('Scrollling to instruction');
+    console.log('Scrolling to instructor');
     this.instructorSection.nativeElement.scrollIntoView({ behavior: 'smooth'});
   }
 
   scrollToCourse(): void {
-    console.log('Scrollling to course');
+    console.log('Scrolling to course');
     this.courseSection.nativeElement.scrollIntoView({ behavior: 'smooth'});
   }
 
@@ -39,22 +39,22 @@ export class AppComponent implements OnInit {
   }
 
   guaranteeSection(): void {
-    console.log('Scrollling to guarantee');
+    console.log('scrolling to guarantee')
     this.guaranteeSection.nativeElement.scrollIntoView({ behavior: 'smooth'});
   }
 
-  depositionSection(): void {
-    console.log('Scrollling to deposition');
-    this.depositionSection.nativeElement.scrollIntoView({ behavior: 'smooth'});
+  depositionsSection(): void {
+    console.log('Scrolling to depositions');
+    this.depositionsSection.nativeElement.scrollIntoView({ behavior: 'smooth'});
   }
 
   doubtsSection(): void {
-    console.log('Scrollling to doubts');
+    console.log('Scrolling to doubts');
     this.doubtsSection.nativeElement.scrollIntoView({ behavior: 'smooth'});
   }
 
   priceSection(): void {
-    console.log('Scrollling to price');
+    console.log('Scrolling to price')
     this.priceSection.nativeElement.scrollIntoView({ behavior: 'smooth'});
   }
 
