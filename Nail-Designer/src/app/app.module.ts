@@ -30,7 +30,7 @@ import { FooterComponent } from './footer/footer.component';
     PriceComponent,
     FooterComponent
   ],
-
+  
   imports: [
     BrowserModule,
     AppRoutingModule

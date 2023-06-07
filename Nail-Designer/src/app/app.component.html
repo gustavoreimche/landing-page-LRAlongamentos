@@ -1,16 +1,16 @@
-<app-navbar 
-  (homeClick)="scrollToHome()" 
+<app-navbar
+  (homeClick)="scrollToHome()"
   (instructorClick)="scrollToInstructor()"
-  (couseClick)=""
-  (certificationClick)
-  (guaranteeClick)
-  (depositionClick)
-  (doubtsClick)
-  (priceClick)="="
+  (courseClick)="scrollToCourse()"
+  (certificationClick)="scrollToCertification()"
+  (guaranteeClick)="scrollToGuarantee()"
+  (depositionClick)="scrollToDeposition()"
+  (doubtsClick)="scrollToDoubts()"
+  (priceClick)="scrollToPrice()"
 ></app-navbar>
 <app-home #homeSection></app-home>
 <app-instructor #instructorSection></app-instructor>
-<app-course #couseSection></app-course>
+<app-course #courseSection></app-course>
 <app-certification #certificationSection></app-certification>
 <app-guarantee #guaranteeSection></app-guarantee>
 <app-depositions #depositionSection></app-depositions>
