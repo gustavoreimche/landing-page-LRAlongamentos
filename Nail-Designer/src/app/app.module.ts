@@ -12,13 +12,12 @@ import { CertificationComponent } from './certification/certification.component'
 import { DepositionsComponent } from './depositions/depositions.component';
 import { DoubtsComponent } from './doubts/doubts.component';
 import { GuaranteeComponent } from './guarantee/guarantee.component';
-import { CourseValueComponent } from './course-value/course-value.component';
 import { FooterComponent } from './footer/footer.component';
-import { OverInstructorComponent } from './over-instructor/over-instructor.component';
+impo
 
 
 @NgModule({
-  declarations: [
+  declarations: 
     AppComponent,
     HomeComponent,
     NavbarComponent,
@@ -27,10 +26,7 @@ import { OverInstructorComponent } from './over-instructor/over-instructor.compo
     DepositionsComponent,
     DoubtsComponent,
     GuaranteeComponent,
-    CourseValueComponent,
     FooterComponent,
-    OverInstructorComponent,
-
   ],
 
   imports: [
