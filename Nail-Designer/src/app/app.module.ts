@@ -12,9 +12,9 @@ import { CertificationComponent } from './certification/certification.component'
 import { DepositionsComponent } from './depositions/depositions.component';
 import { DoubtsComponent } from './doubts/doubts.component';
 import { GuaranteeComponent } from './guarantee/guarantee.component';
-import { OverIstructorComponent } from './over-istructor/over-istructor.component';
 import { CourseValueComponent } from './course-value/course-value.component';
 import { FooterComponent } from './footer/footer.component';
+import { OverInstructorComponent } from './over-instructor/over-instructor.component';
 
 
 @NgModule({
@@ -27,12 +27,12 @@ import { FooterComponent } from './footer/footer.component';
     DepositionsComponent,
     DoubtsComponent,
     GuaranteeComponent,
-    OverIstructorComponent,
     CourseValueComponent,
     FooterComponent,
-    
+    OverInstructorComponent,
+
   ],
-  
+
   imports: [
     BrowserModule,
     AppRoutingModule
