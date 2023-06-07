@@ -12,12 +12,12 @@ import { CertificationComponent } from './certification/certification.component'
 import { DepositionsComponent } from './depositions/depositions.component';
 import { DoubtsComponent } from './doubts/doubts.component';
 import { GuaranteeComponent } from './guarantee/guarantee.component';
+import { InstructorComponent } from './instructor/instructor.component';
+import { PriceComponent } from './price/price.component';
 import { FooterComponent } from './footer/footer.component';
-impo
-
 
 @NgModule({
-  declarations: 
+  declarations:
     AppComponent,
     HomeComponent,
     NavbarComponent,
@@ -26,7 +26,9 @@ impo
     DepositionsComponent,
     DoubtsComponent,
     GuaranteeComponent,
-    FooterComponent,
+    InstructorComponent,
+    PriceComponent,
+    FooterComponent
   ],
 
   imports: [
