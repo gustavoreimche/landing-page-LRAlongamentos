@@ -6,10 +6,7 @@ import { Component, ElementRef, OnInit, ViewChild } from '@angular/core';
   styleUrls: ['./app.component.scss']
 })
 export class AppComponent implements OnInit {
-scrollToGuarantee() {
-throw new Error('Method not implemented.');
-}
-[x: string]: any;
+
   @ViewChild('homeSection', {static: true, read: ElementRef}) homeSection!: ElementRef;
   @ViewChild('instructorSection', {static: true, read: ElementRef}) instructorSection!: ElementRef;
   @ViewChild('courseSection', {static: true, read: ElementRef}) courseSection!: ElementRef;
