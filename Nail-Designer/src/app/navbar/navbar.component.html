@@ -1,0 +1,44 @@
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <div class="container px-5">
+      <a class="navbar-brand" routerLink="/">
+        <img class="logo-image img-fluid" [src]="logoImage" alt="LR">
+      </a>
+      <button class="navbar-toggler" type="button" (click)="toggleNavbar()">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" [class.show]="!navbarCollapsed" id="navbarNav">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item">
+            <a class="nav-link" (click)="onHomeClick()">
+              Home
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" (click)="onInstructorClick()">
+              Instrutora
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" (click)="onCourseClick()">
+              Curso
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" (click)="onGuaranteeClick()">
+              Garantia
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" (click)="onDoubtsClick()">
+               Dúvidas
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" (click)="onPriceClick()">
+              Preço
+            </a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
