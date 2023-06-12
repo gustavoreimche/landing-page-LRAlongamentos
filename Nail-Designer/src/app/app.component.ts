@@ -6,12 +6,16 @@ import { Component, ElementRef, OnInit, ViewChild } from '@angular/core';
   styleUrls: ['./app.component.scss']
 })
 export class AppComponent implements OnInit {
+scrollToGuarantee() {
+throw new Error('Method not implemented.');
+}
+[x: string]: any;
   @ViewChild('homeSection', {static: true, read: ElementRef}) homeSection!: ElementRef;
   @ViewChild('instructorSection', {static: true, read: ElementRef}) instructorSection!: ElementRef;
   @ViewChild('courseSection', {static: true, read: ElementRef}) courseSection!: ElementRef;
   @ViewChild('certificationSection', {static: true, read: ElementRef}) certificationSection!: ElementRef;
   @ViewChild('guaranteeSection', {static: true, read: ElementRef}) guaranteeSection!: ElementRef;
-  @ViewChild('depositionsSection', {static: true, read: ElementRef}) depositiosnSection!: ElementRef;
+  @ViewChild('depositionsSection', {static: true, read: ElementRef}) depositionsSection!: ElementRef;
   @ViewChild('doubtsSection', {static: true, read: ElementRef}) doubtsSection!: ElementRef;
   @ViewChild('priceSection', {static: true, read: ElementRef}) priceSection!: ElementRef;
 
@@ -38,22 +42,22 @@ export class AppComponent implements OnInit {
     this.certificationSection.nativeElement.scrollIntoView({ behavior: 'smooth'});
   }
 
-  guaranteeSection(): void {
+  scrollToGuarantee(): void {
     console.log('scrolling to guarantee')
     this.guaranteeSection.nativeElement.scrollIntoView({ behavior: 'smooth'});
   }
 
-  depositionsSection(): void {
+  scrollToDepositions(): void {
     console.log('Scrolling to depositions');
     this.depositionsSection.nativeElement.scrollIntoView({ behavior: 'smooth'});
   }
 
-  doubtsSection(): void {
+  scrollToDoubts(): void {
     console.log('Scrolling to doubts');
     this.doubtsSection.nativeElement.scrollIntoView({ behavior: 'smooth'});
   }
 
-  priceSection(): void {
+  scrollToPrice(): void {
     console.log('Scrolling to price')
     this.priceSection.nativeElement.scrollIntoView({ behavior: 'smooth'});
   }
